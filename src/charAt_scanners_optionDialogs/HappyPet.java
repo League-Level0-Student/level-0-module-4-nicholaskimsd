@@ -31,8 +31,11 @@ public class HappyPet {
 			if (task == 0) {
 				walkpet();
 			}
+			if (task == 2) {
+				drivepetinbugattichiron();
+			}
 			if (task == 1) {
-
+				buythemostexpensivethingsforpet();
 			}
 			// JOptionPane.showMessageDialog(null, "your pet is longer your friend");
 			// }
@@ -53,7 +56,12 @@ public class HappyPet {
 
 	static void drivepetinbugattichiron() {
 		JOptionPane.showMessageDialog(null, "WOOOOHHHHOOOO.  Now were talking");
-		happinessLevel = happinessLevel + 7;
-		System.out.println(happinessLevel + 7);
+		happinessLevel = happinessLevel + 9;
+		System.out.println(happinessLevel + 9);
+	}
+	static void buythemostexpensivethingsforpet() {
+		JOptionPane.showMessageDialog(null, "Some kids are starving in Japan");
+		happinessLevel = -10;
+		System.out.println(happinessLevel -10);
 	}
 }
